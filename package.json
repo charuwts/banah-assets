@@ -2,10 +2,6 @@
   "name": "banah-assets",
   "version": "1.0.0",
   "description": "Stylesheets and Scripts for Banah Web Application Engine",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/charuwts/banah-assets.git"
@@ -25,9 +21,5 @@
     "jquery-ui": "^1.12.1",
     "pickadate": "^3.6.4",
     "popper.js": "^1.16.1"
-  },
-  "files": [
-    "src/*.css",
-    "src/*.js"
-  ]
+  }
 }

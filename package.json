@@ -1,0 +1,33 @@
+{
+  "name": "banah-assets",
+  "version": "1.0.0",
+  "description": "Stylesheets and Scripts for Banah Web Application Engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charuwts/banah-assets.git"
+  },
+  "author": "Charuwts, LLC <info@charuwts.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charuwts/banah-assets/issues"
+  },
+  "homepage": "https://github.com/charuwts/banah-assets#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.3.3",
+    "bootstrap": "^4.4.1",
+    "daemonite-material": "^4.1.1",
+    "gsap": "^3.2.6",
+    "jquery": "^3.5.0",
+    "jquery-ui": "^1.12.1",
+    "pickadate": "^3.6.4",
+    "popper.js": "^1.16.1"
+  },
+  "files": [
+    "src/*.css",
+    "src/*.js"
+  ]
+}

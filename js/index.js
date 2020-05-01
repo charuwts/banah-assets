@@ -7,7 +7,9 @@ $( document ).on('turbolinks:load', function() {
   
   function banahFadeIn() {
     let tl = gsap.timeline();
-    .from(".banah-fade-in", {duration: 0.8, y: "-0.3rem", opacity: 0});
+    tl.to(".banah-fade-in", {duration: 0.3, rotateZ: "0.5"})
+    .to(".banah-fade-in", {duration: 0.3, rotateZ: "-0.5"})
+    .to(".banah-fade-in", {duration: 0.3, rotateZ: "0"})
   }
 
   function createTile(event) {

@@ -14,10 +14,10 @@
   },
   "homepage": "https://github.com/charuwts/banah-assets#readme",
   "dependencies": {
-    "@popperjs/core": "^2.3.3",
-    "bootstrap": "^4.4.1",
+    "@popperjs/core": "^2.4.4",
+    "bootstrap": "^4.5.0",
     "daemonite-material": "^4.1.1",
-    "gsap": "^3.2.6",
+    "gsap": "^3.4.1",
     "jquery": "^3.5.1",
     "jquery-ui": "^1.12.1",
     "pickadate": "^3.6.4",
